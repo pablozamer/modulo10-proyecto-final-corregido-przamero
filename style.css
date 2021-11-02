@@ -1,0 +1,194 @@
+Body {width:100vw;
+      height:100vh;
+      margin: 0;
+      background-color:#f06543 ;
+}
+
+#fondouno{
+    margin-top: 50px;
+    padding-top: 20px 20px;
+    background-color: rgb(69, 146, 198);
+}
+
+#textual {
+    contain: style;
+}
+
+.titulo{
+    font-family: monospace;
+    font-weight: bolder  ;
+    text-align: center;
+    color: rgb(7, 7, 92);
+    font-size: 55px ;
+}
+
+#subtitulo{
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+    color:rgb(232, 240, 229);
+}
+
+#fondodos{
+    border: 5px solid;
+    color: #e3f2fd;
+    background-color: #d4e09b;
+}
+.mi {
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic;
+    font-size: 45px;
+    color:#006400;
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+    
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+   
+.yo {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-family: sans-serif 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color:rgb(236, 89, 4);
+}
+
+p {
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+  }
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+}
+
+#listauno{
+    text-align: center;
+    align-content: center;
+}
+
+.tecno{
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    color:rgb(10, 63, 65)
+}
+
+.logia{
+    padding-left: 180px;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: justify;
+    align-items: auto;
+    color:rgb(4, 55, 104)
+}
+
+.titulohobby{
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    color:rgb(10, 63, 65);
+}
+
+.listados{
+    padding-left: 180px;
+    font-size: 30px;
+    font-style: oblique;
+    color:rgb(4, 55, 104);
+}
+.varios{
+    background-color: #f4d35e;
+    margin-top: 2px;
+    height: 65%;
+}
+
+#foot{
+    height: 25%;
+    background-color: #b5c99a;
+    padding: 3px;
+    
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#listalogos2{
+    margin-top: 40px;
+    }
+
+#ejemplos{
+    margin-top: 40px;
+}
+
+#variosdos{
+    display: block;
+    margin: auto;
+
+}
+
+.variosdos{
+    background-color: #e9d8a6;
+   }
+
+.otross{
+    columns: 4;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.apps{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: bold;
+    color: rgb(13, 41, 24);
+    text-align: center;
+    align-content: center;
+}
+
+.h3{
+    background-color: darkorange;
+    align-content: center;
+    align-items: center;
+    padding: 7%;
+}
+
+#fin{
+    background-color: darkorange;
+    padding-bottom: 3%;
+}
+
+#footers{
+    background-color: #006400;
+}
+
+
